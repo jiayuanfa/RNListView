@@ -14,6 +14,7 @@ import {
 
 import ListViewTest from './ListViewTest'
 import ListViewTest2 from './ListViewTest2'
+import JYFTabBar from './JYFTabBar'
 
 const instructions = Platform.select({
   ios: 'Press Cmd+R to reload,\n' +
@@ -26,7 +27,7 @@ type Props = {};
 export default class App extends Component<Props> {
   render() {
     return (
-      <ListViewTest2/>
+      <JYFTabBar/>
     );
   }
 }
