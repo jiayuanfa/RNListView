@@ -9,7 +9,8 @@ import {
   Platform,
   StyleSheet,
   Text,
-  View
+  View,
+  TabBarIOS,
 } from 'react-native';
 
 import ListViewTest from './ListViewTest'
